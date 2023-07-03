@@ -28,7 +28,7 @@ After installation, run the linter and direct it to your add-on file:
 addons-linter my-addon.zip
 ```
 
-Alternatively you can point it at a directory:
+Alternatively, you can point it at a directory:
 
 ```sh
 addons-linter my-addon/src/
@@ -42,7 +42,7 @@ addons-linter --help
 
 #### Privileged extensions
 
-The addons-linter can lint privileged extensions **only** when the `--privileged` option is passed to it. This option changes the behavior of the linter to:
+The addons-linter can lint privileged extensions **only** when the `--privileged` option is passed to it. This option changes the behaviour of the linter to:
 
 1. emit errors when the input file (or directory) is a regular extension (i.e. the extension does not use privileged features)
 2. hide messages related to privileged features (e.g., permissions and properties) when the input file (or directory) is a privileged extension
